@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #2c5375, #234c4e);
+  color: white;
+  text-align: center;
+  padding: 50px;
+}
+
+.search-box {
+  margin-bottom: 20px;
+}
+
+.weather-box {
+  background: rgba(0,0,0,0.4);
+  padding: 20px;
+  border-radius: 12px;
+  display: inline-block;
+  min-width: 250px;
+}
+
+input {
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 8px;
+  background: #ff9800;
+  color: white;
+  cursor: pointer;
+  margin-left: 10px;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #e68900;
+}
